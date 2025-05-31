@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d0ae90f-92a0-4b41-9d22-87f60164fadf" name="Changes" comment="Without songs - risk of it not fitting on GitHub">
-      <change afterPath="$PROJECT_DIR$/src/command/Lyrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/lyrics/FATË (BONUS).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/lyrics/LVL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/songs/FATË (BONUS).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/songs/LVL.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audio/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/AudioPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/CommandExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playlist/PlaylistLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playlist/PlaylistLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/CommandExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/CommandExecutorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3d0ae90f-92a0-4b41-9d22-87f60164fadf" name="Changes" comment="Added last class - Lyrics. I only added 2 songs to be safe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +67,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -188,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748705536876</updated>
-      <workItem from="1748705537801" duration="5091000" />
+      <workItem from="1748705537801" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="Without songs - risk of it not fitting on GitHub">
       <option name="closed" value="true" />
@@ -198,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748707097602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added last class - Lyrics. I only added 2 songs to be safe">
+      <option name="closed" value="true" />
+      <created>1748711130295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748711130295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Without songs - risk of it not fitting on GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Without songs - risk of it not fitting on GitHub" />
+    <MESSAGE value="Added last class - Lyrics. I only added 2 songs to be safe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added last class - Lyrics. I only added 2 songs to be safe" />
   </component>
 </project>
