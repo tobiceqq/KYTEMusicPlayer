@@ -30,7 +30,7 @@ public class CommandExecutorTest {
 
     @Test
     public void testHelpCommandByNumber() throws InvalidCommandException {
-        String result = executor.executeCommand("20");
+        String result = executor.executeCommand("21");
         assertNotNull(result);
         assertFalse(result.isEmpty());
     }
@@ -45,12 +45,12 @@ public class CommandExecutorTest {
     @Test
     public void testShouldExitTrue() {
         assertTrue(executor.shouldExit("exit"));
-        assertTrue(executor.shouldExit("21"));
+        assertTrue(executor.shouldExit("22"));
     }
 
     @Test
     public void testShouldExitFalse() {
         assertFalse(executor.shouldExit("help"));
-        assertFalse(executor.shouldExit("20"));
+        assertFalse(executor.shouldExit("21"));
     }
 }

@@ -13,7 +13,7 @@ public class PlaylistLoader {
         Playlist longLiveAsap = playlistManager.getPlaylist("LONG.LIVE.A$AP");
 
         if (longLiveAsap != null) {
-            longLiveAsap.addSong(new Song("Long Live A$AP" , "A$AP Rocky" , 289 , "src/songs/Long Live A$AP.wav"));
+            longLiveAsap.addSong(new Song("LVL" , "A$AP Rocky" , 220 , "src/songs/LVL.wav"));
         }
 
 

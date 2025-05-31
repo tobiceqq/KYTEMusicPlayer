@@ -41,9 +41,9 @@ public class Stats implements Command {
         StringBuilder sb = new StringBuilder();
         sb.append(ConsoleStyle.bold("\uD83D\uDCCA Playlist stats\n"));
         sb.append("____________________________________\n");
-        sb.append("Total songs      : ").append(totalSongs).append("\n");
-        sb.append("Total duration      : ").append(totalDuration / 60).append(":").append(String.format("%02d" , totalDuration % 60)).append("\n");
-        sb.append("Favorites      : ").append(favoriteCount).append(" ❤\uFE0F\n");
+        sb.append(ConsoleStyle.bold("Total songs      : ")).append(totalSongs).append("\n");
+        sb.append(ConsoleStyle.bold("Total duration   : ")).append(totalDuration / 60).append(":").append(String.format("%02d" , totalDuration % 60)).append("\n");
+        sb.append(ConsoleStyle.bold("Favorites        : ")).append(favoriteCount).append(" ❤\uFE0F\n");
 
         if (mostPlayed != null) {
             sb.append(ConsoleStyle.bold("Most played      : ")).append(mostPlayed.getTitle()).append(" - ").append(mostPlayed.getArtist()).append(" (").append(mostPlayed.getPlayCount()).append("x)\n");

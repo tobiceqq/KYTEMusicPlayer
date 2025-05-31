@@ -80,20 +80,23 @@ public class CommandExecutor {
         commandMap.put("favorite", new Favorite(playlistManager, scanner));
         commandMap.put("16", new Favorite(playlistManager, scanner));
 
+        commandMap.put("lyrics", new Lyrics(playlistManager, audioPlayer));
+        commandMap.put("17", new Lyrics(playlistManager, audioPlayer));
+
         commandMap.put("search", new Search(playlistManager, scanner));
-        commandMap.put("17", new Search(playlistManager, scanner));
+        commandMap.put("18", new Search(playlistManager, scanner));
 
         commandMap.put("normalmode", new NormalMode(playlistManager));
-        commandMap.put("18", new NormalMode(playlistManager));
+        commandMap.put("19", new NormalMode(playlistManager));
 
         commandMap.put("stats", new Stats(playlistManager));
-        commandMap.put("19", new Stats(playlistManager));
+        commandMap.put("20", new Stats(playlistManager));
 
         commandMap.put("help", new Help());
-        commandMap.put("20", new Help());
+        commandMap.put("21", new Help());
 
         commandMap.put("exit", new Exit());
-        commandMap.put("21", new Exit());
+        commandMap.put("22", new Exit());
 
     }
 

@@ -177,4 +177,8 @@ public class AudioPlayer {
     public boolean isPlaying() {
         return clip != null && clip.isRunning();
     }
+
+    public Song getCurrentlyPlayingSong() {
+        return currentlyPlayingSong;
+    }
 }
