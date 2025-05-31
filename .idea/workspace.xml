@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d0ae90f-92a0-4b41-9d22-87f60164fadf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KYTEMusicPlayer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/AddSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CreatePlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Favorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Next.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/NormalMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Pause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Play.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Previous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/RemoveSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/SeekBackward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/SeekForward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/SelectPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/ShowCurrentSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/ShowPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Stop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/InvalidCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/PlaylistNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/SongNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PlayMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playlist/PlaylistLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playlist/PlaylistManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/AudioPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CommandExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/InputValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/PlaylistManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/PlaylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/SongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ConsoleStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/InputValidator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2xroQ9I4ShsclGEMcw2Cnv7PAUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CommandExecutorTest.executor": "Run",
+    "JUnit.InputValidatorTest.executor": "Run",
+    "JUnit.PlaylistManagerTest.executor": "Run",
+    "JUnit.PlaylistTest.executor": "Run",
+    "JUnit.SongTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="KYTEMusicPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KYTEMusicPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AudioPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KYTEMusicPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CommandExecutorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KYTEMusicPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InputValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KYTEMusicPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PlaylistManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AudioPlayerTest" />
+        <item itemvalue="JUnit.CommandExecutorTest" />
+        <item itemvalue="JUnit.InputValidatorTest" />
+        <item itemvalue="JUnit.PlaylistManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d0ae90f-92a0-4b41-9d22-87f60164fadf" name="Changes" comment="" />
+      <created>1748705536876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748705536876</updated>
+      <workItem from="1748705537801" duration="1327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
